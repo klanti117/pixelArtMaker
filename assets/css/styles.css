@@ -1,9 +1,15 @@
 body {
-    text-align: center;
+  background: #cc95c0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #cc95c0, #dbd4b4, #7aa1d2); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #cc95c0, #dbd4b4, #7aa1d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  text-align: center;
+
+  font-family: 'Great Vibes', cursive;
 }
 
 h1 {
-    font-family: Monoton;
+    font-family:'Great Vibes', cursive;;
     font-size: 70px;
     margin: 0.2em;
 }
@@ -25,6 +31,7 @@ td {
 table {
     border-collapse: collapse;
     margin: 0 auto;
+    background-color: white;
 }
 
 tr {
