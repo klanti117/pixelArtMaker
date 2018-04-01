@@ -19,5 +19,13 @@ function makeGrid(h,w) {
       $('tr:last').append("<td></td>");
       }
     }
-
+    $('td').click(function addColor(){
+      color=$("#colorPicker").val();
+      if($(this).attr('style')){
+        $(this).removeAttr();
+      }
+      else{
+        $(this).attr('style','background-color:' + color);
+      }
+    });
 }
